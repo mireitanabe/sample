@@ -61,7 +61,6 @@ if($name .= "mirei") {
 $name .= "mirei";
 
 $total = 0;
-echo $total;
 
 for ($i = 0; $i <= 10000; $i++){
   $total += $i;
@@ -81,6 +80,39 @@ $end = 100;
 
 for ($i = $start; $i < $end; $i++){
   if($i % 5 == 0){
-    echo $i . "\n";
+    echo $i . "\n" ;
  }
 }
+
+function sum($max){
+  
+  $result = 0;
+  
+  for($i = 1; $i <=$max; $i++){
+  $result += $i * 2;
+  }
+return $result;
+}
+
+function f($a, $b){
+  $result = 0;
+  
+  for($a = 1; $a <= $max; $a++ ){
+    $result += $a;
+  }
+  for($b = 1; $b <= $max; $b++ ){
+    $result += $b;
+  }
+  echo $a * $b;
+ }
+ 
+function max_array($arr){
+
+ $max_number = $arr[0];
+ foreach($arr as $a){
+   
+ }
+ return $max_number;
+ }
+ 
+ 
